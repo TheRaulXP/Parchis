@@ -344,7 +344,7 @@ namespace Parchis
 
         private void coinClick(Ficha f) {
 
-            MessageBox.Show("HISISTE CLICKASO");
+            // MessageBox.Show("You clicked!");
 
             lastClicked = f;
 
