@@ -660,6 +660,8 @@ namespace Parchis
 
         public bool isBridges(Ficha f, int dest) {
 
+            if (f.pos == dest) { return false; }
+
             // Map -> <position, fichasAmount>
             Dictionary<int, int> map = new Dictionary<int, int>();
 
