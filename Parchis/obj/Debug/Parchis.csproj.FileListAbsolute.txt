@@ -8,3 +8,13 @@ C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.csproj.GenerateRe
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.csproj.CoreCompileInputs.cache
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.exe
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.pdb
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.csprojAssemblyReference.cache
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.Main.resources
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.Properties.Resources.resources
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.csproj.GenerateResource.cache
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.csproj.CoreCompileInputs.cache
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.exe
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.pdb
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\bin\Debug\Parchis.exe.config
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\bin\Debug\Parchis.exe
+C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\bin\Debug\Parchis.pdb

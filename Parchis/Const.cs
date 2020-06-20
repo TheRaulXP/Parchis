@@ -4,23 +4,66 @@ using System.Drawing;
 public class Const
 {
 
-    // TEAM ID
-    public const int VERDE = 0;
-    public const int AMARILLA = 1;
-    public const int AZUL = 2;
-    public const int ROJA = 3;
+    // Team ID
+    public const int GREEN = 0;
+    public const int YELLOW = 1;
+    public const int BLUE = 2;
+    public const int RED = 3;
 
-    // HOME COORDINATES
-    public static Point[] homeVerde = { new Point(78, 550), new Point(138, 550), new Point(78, 623), new Point(138, 623) };
-    public static Point[] homeAmarilla = { new Point(515, 550), new Point(575, 550), new Point(515, 623), new Point(575, 623) };
-    public static Point[] homeAzul = { new Point(515, 78), new Point(575, 78), new Point(515, 151), new Point(575, 151) };
-    public static Point[] homeRoja = { new Point(78, 78), new Point(138, 78), new Point(78, 151), new Point(138, 151) };
+    // Home coordinates
+    public static int[] homeCells = { 56, 5, 22, 39 };
+    public static int[] preWinCells = { 51, 68, 17, 34 };
 
-    // TURN CIRCLE INDICATOR
+    public static Point[,] homeSlots = {
+        { new Point(78, 550), new Point(138, 550), new Point(78, 623), new Point(138, 623) },
+        { new Point(515, 550), new Point(575, 550), new Point(515, 623), new Point(575, 623) },
+        { new Point(515, 78), new Point(575, 78), new Point(515, 151), new Point(575, 151) },
+        { new Point(78, 78), new Point(138, 78), new Point(78, 151), new Point(138, 151) }
+    };
+
+    // Turn circle indicator
     public static Point[] turnLocations = { new Point(10, 485), new Point(447, 485), new Point(447, 13), new Point(10, 13) };
 
-    // WIN PATH SQUARES
-    public static Point[] winVerde = {
+    // Win path squares
+    public static Point[,] winPaths = { {
+        new Point(44, 352),
+        new Point(76, 352),
+        new Point(107, 352),
+        new Point(139, 352),
+        new Point(171, 352),
+        new Point(202, 352),
+        new Point(231, 352),
+        new Point(285, 352)
+    }, {
+        new Point(325, 657),
+        new Point(325, 624),
+        new Point(325, 589),
+        new Point(325, 553),
+        new Point(325, 520),
+        new Point(325, 487),
+        new Point(325, 454),
+        new Point(325, 400)
+    }, {
+        new Point(607, 352),
+        new Point(575, 352),
+        new Point(543, 352),
+        new Point(512, 352),
+        new Point(480, 352),
+        new Point(448, 352),
+        new Point(416, 352),
+        new Point(370, 352)
+    }, {
+        new Point(325, 47),
+        new Point(325, 82),
+        new Point(325, 115),
+        new Point(325, 150),
+        new Point(325, 185),
+        new Point(325, 218),
+        new Point(325, 250),
+        new Point(325, 300)
+    } };
+
+    public static Point[] winGreen = {
         new Point(44, 352),
         new Point(76, 352),
         new Point(107, 352),
@@ -31,7 +74,7 @@ public class Const
         new Point(285, 352)
     };
 
-    public static Point[] winAmarilla = {
+    public static Point[] winYellow = {
         new Point(325, 657),
         new Point(325, 624),
         new Point(325, 589),
@@ -42,7 +85,7 @@ public class Const
         new Point(325, 400)
     };
 
-    public static Point[] winAzul = {
+    public static Point[] winBlue = {
         new Point(607, 352),
         new Point(575, 352),
         new Point(543, 352),
@@ -53,7 +96,7 @@ public class Const
         new Point(370, 352)
     };
 
-    public static Point[] winRoja = {
+    public static Point[] winRed = {
         new Point(325, 47),
         new Point(325, 82),
         new Point(325, 115),
@@ -64,8 +107,8 @@ public class Const
         new Point(325, 300)
     };
 
-    // COMMON SQUARES
-    public static Point[] casilla = {
+    // Common squares
+    public static Point[] cells = {
         // new Point(0, 0),
         new Point(398, 690),
         new Point(398, 657),

@@ -143,6 +143,16 @@ namespace Parchis.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fichaGris {
+            get {
+                object obj = ResourceManager.GetObject("fichaGris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fichaRoja {
             get {
                 object obj = ResourceManager.GetObject("fichaRoja", resourceCulture);

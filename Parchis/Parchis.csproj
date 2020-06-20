@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tablero.cs" />
+    <Compile Include="Ficha.cs" />
     <Compile Include="Locale.cs" />
     <Compile Include="Const.cs" />
     <Compile Include="Main.cs">
@@ -126,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="246x0w.ico" />
+    <None Include="Resources\fichaGris.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
