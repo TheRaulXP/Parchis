@@ -1,7 +1,6 @@
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\bin\Debug\Parchis.exe.config
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\bin\Debug\Parchis.exe
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\bin\Debug\Parchis.pdb
-C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.csprojAssemblyReference.cache
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.Main.resources
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.Properties.Resources.resources
 C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.csproj.GenerateResource.cache

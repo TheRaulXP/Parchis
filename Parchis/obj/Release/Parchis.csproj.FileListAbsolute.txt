@@ -1,0 +1,9 @@
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\bin\Release\Parchis.exe.config
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\bin\Release\Parchis.exe
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\bin\Release\Parchis.pdb
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Release\Parchis.Main.resources
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Release\Parchis.Properties.Resources.resources
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Release\Parchis.csproj.GenerateResource.cache
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Release\Parchis.csproj.CoreCompileInputs.cache
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Release\Parchis.exe
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Release\Parchis.pdb

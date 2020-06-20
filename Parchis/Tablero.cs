@@ -86,7 +86,9 @@ namespace Parchis
             // Move all coins to home
             for (int i = 0; i < this.fichas.Length; i++)
             {
-                if (this.fichas[i].pos != -1) sendHome(this.fichas[i]);
+                if (this.fichas[i].pos != -1)
+                    sendHome(this.fichas[i]);
+                this.fichas[i].img.Enabled = false;
             }
 
             // Initial turn chosen random

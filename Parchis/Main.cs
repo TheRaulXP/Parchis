@@ -247,6 +247,9 @@ namespace Parchis
             int coin = getCoin(sender);
             if (coin == -1) return;
 
+            if (t.fichas[coin].pos <= 0 || t.fichas[coin].team != t.turn)
+                return;
+
             if (t.move(t.fichas[coin], t.selectedValue))
             {
                 if (t.selectedDice != null)
@@ -265,6 +268,9 @@ namespace Parchis
 
             int coin = getCoin(sender);
             if (coin == -1) return;
+
+            if (t.fichas[coin].pos <= 0 || t.fichas[coin].team != t.turn)
+                return;
 
             if (t.preview(t.fichas[coin], t.selectedValue))
             {
