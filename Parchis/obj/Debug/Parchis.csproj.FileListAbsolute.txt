@@ -17,3 +17,4 @@ C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\obj\Debug\Parchis.pdb
 C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\bin\Debug\Parchis.exe.config
 C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\bin\Debug\Parchis.exe
 C:\Users\Raul\Downloads\Code\ParchisReloaded\Parchis\bin\Debug\Parchis.pdb
+C:\Users\Raul\Downloads\Code\Parchis\Parchis\obj\Debug\Parchis.csprojAssemblyReference.cache

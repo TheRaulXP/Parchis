@@ -195,6 +195,7 @@ namespace Parchis
 
         private void DiceGraph0_Click(object sender, EventArgs e)
         {
+            t.specialMovement = false;
             blur0.Visible = true;
             blur1.Visible = false;
             t.selectedValue = t.dice[0];
@@ -204,6 +205,7 @@ namespace Parchis
 
         private void DiceGraph1_Click(object sender, EventArgs e)
         {
+            t.specialMovement = false;
             blur0.Visible = false;
             blur1.Visible = true;
             t.selectedValue = t.dice[1];
@@ -252,8 +254,10 @@ namespace Parchis
 
             if (t.move(t.fichas[coin], t.selectedValue))
             {
-                if (t.selectedDice != null)
+                if (t.selectedDice != null) {
                     t.selectedDice.Enabled = false;
+                    t.selectedDice = null;
+                }
                 if (!t.specialMovement)
                 {
                     t.selectedValue = -1;
